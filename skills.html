@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Sibya, Jeff Jarren S.</title>
+    <link rel="stylesheet" href="./Css/Style4.css">    
+    <style>
+        body {
+            background-image: url('./Images/background.jpg');
+            background-size: cover;  
+            background-position: center;  
+            background-attachment: fixed;  
+            color: rgb(0, 0, 0);  
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <header>
+                <a class="logo" href="#">
+                    <img src="logo.png" alt="Logo" style="height: 50px;"> 
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT ME</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="skills.html">SKILLS</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </nav>
+    </header>
+
+<section id="about" class="section">
+   
+    <h3>Frontend Development</h3>
+    <div class="skills-container">
+        <div class="card"><img src="./Images/html.jpg" alt="HTML"><p>HTML & CSS</p></div>
+        <div class="card"><img src="./Images/JavaScript.jpg" alt="JavaScript"><p>JavaScript</p></div>
+        <div class="card"><img src="./Images/bootstrap1.jpg" alt="Bootstrap"><p>Bootstrap</p></div>
+    </div>
+
+    <h3>Backend Development</h3>
+    <div class="skills-container">
+        <div class="card"><img src="./Images/Ndjs.jpg" alt="Node.js"><p>Node.js</p></div>
+        <div class="card"><img src="./Images/database.png" alt="Database"><p>Database</p></div>
+    </div>
+
+    <h3>Design Tools</h3>
+    <div class="skills-container">
+        <div class="card"><img src="./Images/Figma-Logo.jpg" alt="Figma"><p>Figma</p></div>
+        <div class="card"><img src="./Images/canva.jpg" alt="Canva"><p>Canva</p></div>
+    </div>
+
+</section>
+
+<<footer>
+    <div class="footer-content">
+        <p>&copy; <span id="year"></span> Social Media Account</p>
+        
+        <div class="social-icons">
+            <a href="https://www.instagram.com" target="_blank" title="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.twitter.com" target="_blank" title="Twitter">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" title="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<style>
+    /* Footer Styling */
+    footer {
+        background-color: #333;
+        color: white;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .social-icons {
+        margin-top: 10px;
+    }
+
+    .social-icons a {
+        color: white;
+        font-size: 24px;
+        margin: 0 15px;
+        text-decoration: none;
+    }
+
+    .social-icons a:hover {
+        color: #a10701; /* Highlight color on hover */
+    }
+</style>
+
+
+</body>
+</html>
+</body>
+</html>
